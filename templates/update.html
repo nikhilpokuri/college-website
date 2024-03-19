@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../static/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="banner-section">
+        <img src="../static/images/banner.jpg" alt="">
+    </div>
+    <div class="update-section">
+        <form action="/update-form" method="post">
+            <input type="number" name="id" placeholder="ID">
+            <select name="field" id="update-drop">
+                <option value="name">CHANGE NAME</option>
+                <option value="email">CHANGE EMAIL</option>
+                <option value="phone">CHANGE PHONE</option>
+                <option value="percentage">CHANGE INTER PERCENTAGE</option>
+                <option value="rank">EAMCET RANK</option>
+                <option value="course">COURSE INTERESTED</option>
+                <option value="address">ADDRESS</option>
+            </select>
+            <input type="text" name="new_value" placeholder="NEW DATA">
+            <input type="submit" id="update-btn" value="UPDATE">
+        </form>
+    </div>
+</body>
+</html>

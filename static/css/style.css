@@ -1,0 +1,210 @@
+.banner-section{
+    float: left;
+    width: 100%;
+}
+
+.banner-section img{
+    width: 100%;
+}
+
+.hero-section{
+    float: left;
+    width: 100%;
+}
+
+.sub-hero-section-1{
+    float: left;
+    width: 40%;
+}
+
+.sub-hero-section-1 img{
+    margin-top: 8%;
+    margin-left: 6%;
+    width: 60%; 
+}
+
+.sub-hero-section-2{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.sub-hero-section-2 h1{
+    font-family: "Rubik Doodle Shadow", system-ui;
+    font-weight: 800;
+    font-size: 48px;
+    color: black;
+    text-decoration: none;
+    letter-spacing: 6px;
+}
+
+.sub-hero-section-2 img{
+    width: 80%;
+}
+
+.gallery-section{
+    float: left;
+    width: 100%;
+    margin: 5% 0% 4% 0%;
+}
+
+.sub-gallery-section-1{
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.sub-gallery-section-1 h1{
+    font-family: "Rubik Doodle Shadow", system-ui;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.sub-gallery-section-2{
+    float: left;
+    width: 100%;
+}
+
+#play{
+    float: left;
+    width: 19%;
+    height: 195px;
+    /* margin-left: 2%; */
+}
+
+.sub-gallery-section-2 img{
+    float: left;
+    width: 20%;
+}
+
+.volunteer-section{
+    float: left;
+    width: 100%;
+    margin: 0% 0% 5% 0%;
+}
+
+.sub-volunteer-section-1 img{
+    float: left;
+    width: 20%;
+    margin-left: 20%;
+}
+
+.sub-volunteer-section-2{
+    float: left;
+    width: 30%;
+    margin-left: 10%;
+}
+
+.sub-volunteer-section-2 h1{
+    font-family: "Rubik Doodle Shadow", system-ui;
+    font-size: 43px;
+    font-weight: 500;
+}
+
+.sub-volunteer-section-2 p{
+    font-size: 20px;
+}
+
+.vol-contact{
+    float: left;
+    width: 80%;
+    text-align: end;
+    margin-right: 5%;
+}
+
+.footer-section{
+    float: left;
+    width: 100%;
+    background-color: rgb(55, 54, 54);
+    padding: 2% 0% 2% 0%;
+}
+
+.sub-footer-section-1,.sub-footer-section-3{
+    float: left;
+    width: 16%;
+    margin: 0% 0% 0% 9%;
+    padding: 0% 0% 1% 2%;
+    color: aliceblue;
+    border: solid 2px white;
+}
+
+.sub-footer-section-2{
+    float: left;
+    width: 15%;
+    font-size: 20px;
+    margin: 0% 5% 0% 13%;
+    padding: 0% 0% 0.5% 0.5%;
+    border: solid 2px white;
+}
+
+.sub-footer-section-2 input,#query-drop{
+    padding: 2% 10% 2% 2%;
+    margin: 1%;
+}
+
+.copy-section{
+    float: left;
+    width: 100%;
+    color: white;
+    text-align: center;
+    background-color: rgb(29, 28, 28);
+}
+
+.admissions-section{
+    float: left;
+    width: 40%;
+    /* background-color: aqua; */
+    padding: 2%;
+    margin: 5% 0% 0% 30%;
+}
+
+.top-btn{
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.down-btn{
+    float: left;
+    width: 100%;
+    text-align: center;
+
+}
+
+.top-btn a,.down-btn a{
+    float: left;
+    width: 25%;
+    border: solid 2px black;
+    padding: 2% 2% 2% 2%;
+    font-size: 24px;
+    text-decoration: none;
+    margin: 0% 10% 0% 0%;
+}
+
+.down-btn a{
+    border: solid 2px black;
+}
+
+.register-section,.update-section,.delete-section{
+    float: left;
+    width: 30%;
+    padding: 5%;
+    margin: 0% 0% 0% 25%;
+}
+
+.register-section input,.update-section input,#update-drop, .delete-section input{
+    width: 90%;
+    border: solid 3px black;
+    font-size: 20px;
+    padding: 2%;
+    margin: 1%;
+}
+
+#register-btn, #update-btn, #delete-btn{
+    float: left;
+    width: 40%;
+    margin-top: 10%;
+    margin-left: 30%;
+}
+
