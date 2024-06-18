@@ -4,7 +4,8 @@ from flask import Flask, render_template, request
 app = Flask(__name__)
 
 my_connection = sql.connect(
-    host="localhost", user="public", password="Password#123", database="final"
+    # use your user, password
+    host="localhost", user="", password="", database="final"
 )
 my_cursor = my_connection.cursor()
 
